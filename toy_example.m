@@ -63,7 +63,7 @@ for iter =1: length(omega)
 
 s = omega(iter);
 
-K = (1i*s*I -(A-M));
+K = (1i*s*I -(T*A-M));
 
 % Harmonic Transfer Matrix
 H = K\I + B;
